@@ -1,3 +1,3 @@
 [submodule "emerald/events"]
-	path = emerald/events
+	path = emerald/modules/events
 	url = https://github.com/EmeraldFramework/Events
