@@ -74,3 +74,5 @@ function module:getLoggerScope(scope)
         return module:getLogger(scope .. ':' .. prefix)
     end
 end
+
+return module
