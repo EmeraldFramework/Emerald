@@ -74,8 +74,3 @@ function module:getLoggerScope(scope)
         return module:getLogger(scope .. ':' .. prefix)
     end
 end
-
-local scopedLoggerGet = module:getLoggerScope('emerald')
-
-local testLogger = scopedLoggerGet('test')
-testLogger.info('test logger!')
